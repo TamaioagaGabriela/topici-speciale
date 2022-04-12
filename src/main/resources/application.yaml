@@ -1,0 +1,14 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+      show-sql: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/licenta
+    username: licenta
+    password: licenta
+
+cm:
+  app:
+  jwtSecret: secretkey
+  jwtExpirationMs: 123456789
